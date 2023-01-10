@@ -41,6 +41,17 @@ console.log(thirdVariable);
 // - affiche les trois variables dans un console.log
 // - affiche les types des trois variables par une méthode
 
+let firstString = "abc";
+let firstInteger = 1;
+let firstBoolean = true;
+
+console.log(firstString);
+console.log(firstInteger);
+console.log(firstBoolean);
+console.log(typeof firstString);
+console.log(typeof firstInteger);
+console.log(typeof firstBoolean);
+
 // ### Exercice 2.1
 // - déclare 2 variables. Une qui va prendre un pays et l'autre sa capitale.
 // - déclare une variable "maPhrase" qui va prendre comme valeur une phrase. 
