@@ -118,6 +118,13 @@ console.log(nombre + nombreString); // il s'agit ici d'une simple addition
 // - déclare une variable avec le préfix "const" "nom" et donne lui comme valeur ton nom(string)
 // - affiche les résultats des trois dans un console.log
 
+var monPrenom = "Bachir";
+let monAge = 22;
+const monNom = "Boulaich";
+console.log(monPrenom);
+console.log(monAge);
+console.log(monNom);
+
 // ### Exercice 3.1 
 // - déclare une variable avec le préfix "var" du même nom que celui dans l'exo 3.1 (prenom) et affiche le résultat via un console.log 
 // - déclare une variable avec le préfix "let" du même nom que celui dans l'exo 3.1(age) et affiche le résultat via un console.log
