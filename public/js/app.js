@@ -58,6 +58,11 @@ console.log(typeof firstBoolean);
 // - Ecrit cette phrase avec la concaténation (avec le symbole +)
 //     - ex : let textUne = variableCapitale + "est la capitale du pays : "+ variablePays
 
+let pays = "Belgique";
+let capitale = "Bruxelles";
+let maPhrase = capitale + " est la capitale du pays : " + pays;
+console.log(maPhrase); 
+
 // ### Exercice 2.2
 // - Déclare une variable "maPhraseNew" qui va prendre et écrit la même phrase que l'exercice 2.1 (utilise les mêmes variables)
 // - Par contre, réecrit la phrase avec la nouvelle facon de faire depuis ES6 (les backticks `${}`)
