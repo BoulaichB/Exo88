@@ -149,3 +149,16 @@ console.log(monPrenom);
 // - En dehors de cette condition déclare deux autres variables qui ont les mêmes noms que celles dans la condition
 // - Affiche les variables en dehors de la condition via un console.log
 // - Analyse le résultat et tire une conclusion. dans cette exercice tu devrai voir la 2eme différence entre let et var
+
+let pikachu = 5;
+var salameche = 10;
+
+if(true){
+    let pikachu = "Pikachu";
+    var salameche = "Salamèche";
+}
+
+console.log(pikachu);
+console.log(salameche);
+// les variables déclarées par var ont une portée globale, elles ne sont pas limitées à leur bloc d'instruction
+// Ce n'est pas le cas de let
