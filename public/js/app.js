@@ -75,6 +75,10 @@ console.log(maPhraseNew);
 // - Vous avez compris, la nouvelle facon d'ecrire est plus efficace et plus lisible. Il serait plus optimale d'utiliser cette maniere de faire. 
 // - Pour savoir si vous avez compris, déclarer plusieurs variables et faite une phrase longue avec cette facon d'écrire
 
+let prenom = "Bachir";
+let age = 22;
+let nouvellePhrase = `Je m'appelle ${prenom}, j'ai ${age} ans et j'habite à ${capitale}.`
+
 // ### Exercice 2.4
 // - déclare une variable de type integer. la valeur est de 7
 // - déclare une variable de type string. la valeur est de "7"
