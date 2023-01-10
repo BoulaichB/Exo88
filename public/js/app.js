@@ -89,6 +89,13 @@ let nouvellePhrase = `Je m'appelle ${prenom}, j'ai ${age} ans et j'habite à ${c
 //     - fait : variables 1 === variable2
 // prenez le temps d'analyser les résultats et tirer une conclusion 
 
+let newInt = 7;
+let newString = "7";
+// console.log(newInt = newString); réassigne le contenu de newString dans newInt et l'affiche
+console.log(newInt == newString); // compare uniquement la valeur
+console.log(newInt === newString); // compare la valeur et le type
+
+
 // ### Exercice 2.5
 // - déclare une variable de type integer. la valeur est de 5
 // - déclare une variable de type string. la valeur est de "5"
