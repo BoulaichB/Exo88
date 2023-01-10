@@ -19,6 +19,9 @@ console.log(empty); // undefined
 // - Sur la variable de l'exercice 1.2, réassigne une valeur.
 // - Affiche la via un console.log
 
+empty = 2;
+console.log(empty);
+
 // ### Exercice 1.4
 // - déclare une variable avec comme valeur null (attention le null s'ecrit tel quel sans guillemets. sa couleur devrait changer)
 // - déclare une nouvelle variable mais cette fois-ci vide
