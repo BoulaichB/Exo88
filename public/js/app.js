@@ -68,6 +68,9 @@ console.log(maPhrase);
 // - Par contre, réecrit la phrase avec la nouvelle facon de faire depuis ES6 (les backticks `${}`)
 // Affiche le resultat via un console.log
 
+let maPhraseNew = `${capitale} est la capitale du pays : ${pays}`;
+console.log(maPhraseNew);
+
 // ### Exercice 2.3
 // - Vous avez compris, la nouvelle facon d'ecrire est plus efficace et plus lisible. Il serait plus optimale d'utiliser cette maniere de faire. 
 // - Pour savoir si vous avez compris, déclarer plusieurs variables et faite une phrase longue avec cette facon d'écrire
