@@ -130,6 +130,13 @@ console.log(monNom);
 // - déclare une variable avec le préfix "let" du même nom que celui dans l'exo 3.1(age) et affiche le résultat via un console.log
 // - regard la différence entre les deux. dans cette exercice tu devrai voir la 1er différence entre let et var
 
+var monPrenom = "Jean";
+console.log(monPrenom);
+// let monAge = 23; provoque une erreur
+// console.log(monAge); 
+// avec var: possible de déclarer une seconde fois une même variable
+// avec let: déclarer une seconde fois une même variable provoque une erreur
+
 // ### Exercice 3.2
 // - réassigne la valeur de la variable (exo 3.1) avec le préfix "const" et affiche le résultat via le console.log
 // - analyse le résultat
