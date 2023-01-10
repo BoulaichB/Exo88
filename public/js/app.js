@@ -12,6 +12,9 @@ console.log(firstVariable);
 // - Déclare une variable vide (sans valeur) et affiche la via le console.log
 // - Analyse le résultat. 
 
+let empty;
+console.log(empty); // undefined
+
 // ### Exercice 1.3
 // - Sur la variable de l'exercice 1.2, réassigne une valeur.
 // - Affiche la via un console.log
