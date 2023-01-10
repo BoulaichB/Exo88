@@ -103,6 +103,12 @@ console.log(newInt === newString); // compare la valeur et le type
 // - Réassigner la valeur de la variable string ("5") par un nombre (5)
 // - refait via un console.log : variableInteger + variableString
 // - Analyse le résultat et tire une conclusion
+
+let nombre = 5;
+let nombreString = "5";
+console.log(nombre + nombreString); // il s'agit ici d'une concaténation et non d'une addition, c'est pourquoi le résultat est 55
+nombreString = 5;
+console.log(nombre + nombreString); // il s'agit ici d'une simple addition
     
 
 // ## différence entre var, let et const
