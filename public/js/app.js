@@ -26,7 +26,14 @@ console.log(empty);
 // - déclare une variable avec comme valeur null (attention le null s'ecrit tel quel sans guillemets. sa couleur devrait changer)
 // - déclare une nouvelle variable mais cette fois-ci vide
 // affiche les deux variables via une console.log et analyse le résultat
-// - prend le temps d'aller chercher la différence entre une variale "null" et "undefined"  
+// - prend le temps d'aller chercher la différence entre une variale "null" et "undefined" 
+
+let secondVariable = null;
+let thirdVariable;
+console.log(secondVariable);
+console.log(thirdVariable);
+// null est un objet tandis que undefined est un type indéfini
+// null est une valeur d'affectation, undefined signifie qu'une variable a été déclarée sans valeur
 
 // ## Variable suite
 // ### Exercice 2 
