@@ -140,6 +140,8 @@ console.log(monPrenom);
 // ### Exercice 3.2
 // - réassigne la valeur de la variable (exo 3.1) avec le préfix "const" et affiche le résultat via le console.log
 // - analyse le résultat
+// const monNom = "Dupont"; provque une erreur
+// console.log(monNom);
 
 // ### Exercice 3.3
 // - fait une condition if qui prendre comme instruction true. (ne prend pas en compte l'instruction, c'est pour la facilité de l'exercice)
